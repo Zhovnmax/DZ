@@ -1,5 +1,6 @@
 #include <iostream> 
 #include <time.h>
+#include "Source1.h"
 using namespace std;
 int  Suma(int a, int b)
 {
@@ -20,6 +21,8 @@ int main()
 	cout << Suma(a, b);
 
 	cout << Sered_Ar(a, b);
+
+	cout << Max(a, b);
 
 
 	return 0;
