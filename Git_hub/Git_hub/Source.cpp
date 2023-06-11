@@ -8,6 +8,12 @@ int  Suma(int a, int b)
 }
 int main()
 {
+	int a, b;
+
+	cout << "Enter a, b:" << endl;
+	cin >> a, b;
+	cout << Suma(a, b);
+
 
 	return 0;
 
